@@ -54,19 +54,19 @@ if ans3 == "1":
     print("# Final-GradeCALC #")
     print("""""")
 
-# input:
+# input 2:
 C = float(input('Enter your current grade in the class: '))
 W = float(input('Enter the weight of the final exam: '))
 G = float(input('Enter your desired grade for the class: '))
 
-# constants:
+# constants 2:
 N = 100
 
-# processing:
+# processing 2:
 W = W / N
 F = (G - ((1 - W) * C)) / W
 
-# output:
+# output 2:
 print("You need " + str(F) + "%" + " to get " + str(G) + "% in the class.")
 print("""""")
 
